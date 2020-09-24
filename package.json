@@ -1,0 +1,80 @@
+{
+    "name": "@codingwithchris/eslint-config",
+    "version": "1.0.0",
+    "description": "My ESLint config for writing clean, consistent code",
+    "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/codingwithchris/eslint-config-codingwithchris"
+    },
+    "keywords": [
+        "lint",
+        "eslint",
+        "eslintconfig",
+        "eslintreact",
+        "config",
+        "chrishahn",
+        "javascript",
+        "react",
+        "typescript",
+        "eslinttypescript",
+        "tslint",
+        "prettier",
+        "ecmascript"
+    ],
+    "author": "Chris Hahn (chris@chrishahn.me)",
+    "bugs": {
+        "url": "https://github.com/codingwithchris/eslint-config-codingwithchris/issues"
+    },
+    "homepage": "https://github.com/codingwithchris/eslint-config-codingwithchris",
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix",
+        "test": "echo \"No test specified\""
+    },
+    "devDependencies": {
+        "@types/react": "^16.9.49",
+        "@types/react-dom": "^16.9.8",
+        "@typescript-eslint/eslint-plugin": "^4.2.0",
+        "@typescript-eslint/parser": "^4.2.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.9.0",
+        "eslint-config-airbnb": "^18.2.0",
+        "eslint-config-airbnb-typescript": "^10.0.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-html": "^6.1.0",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-jsx-a11y": "^6.3.1",
+        "eslint-plugin-prettier": "^3.1.4",
+        "eslint-plugin-react": "^7.21.1",
+        "eslint-plugin-react-hooks": "^4.1.2",
+        "prettier": "^2.1.2",
+        "typescript": "4.0.3"
+    },
+    "peerDependencies": {
+        "@types/react": "^16.9.49",
+        "@types/react-dom": "^16.9.8",
+        "@typescript-eslint/eslint-plugin": "^4.2.0",
+        "@typescript-eslint/parser": "^4.2.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.9.0",
+        "eslint-config-airbnb": "^18.2.0",
+        "eslint-config-airbnb-typescript": "^10.0.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-html": "^6.1.0",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-jsx-a11y": "^6.3.1",
+        "eslint-plugin-prettier": "^3.1.4",
+        "eslint-plugin-react": "^7.21.1",
+        "eslint-plugin-react-hooks": "^4.1.2",
+        "prettier": "^2.1.2",
+        "typescript": "4.0.3"
+    },
+    "engines": {
+        "node": ">= 10"
+    }
+}
