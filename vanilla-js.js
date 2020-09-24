@@ -10,7 +10,7 @@ module.exports = {
 
     parserOptions: {
         ecmaVersion: 2020,
-        sourceType: "module" // Allows for the use of imports
+        sourceType: 'module', // Allows for the use of imports
     },
 
     env: {

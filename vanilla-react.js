@@ -8,12 +8,11 @@ module.exports = {
         './rules/prettier',
     ].map(require.resolve),
 
-
     parser: 'babel-eslint',
 
     parserOptions: {
         ecmaVersion: 2020,
-        sourceType: "module" // Allows for the use of imports
+        sourceType: 'module', // Allows for the use of imports
     },
 
     env: {
