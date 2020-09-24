@@ -1,6 +1,6 @@
 {
     "name": "@codingwithchris/eslint-config",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "My ESLint config for writing clean, consistent code",
     "private": false,
     "publishConfig": {
