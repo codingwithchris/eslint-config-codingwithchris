@@ -18,7 +18,7 @@ I am currently extending the [eslint-config-airbnb-typescript](https://github.co
 2. Then you need to install everything needed by the config:
 
 For NPM:
-`npx install-peerdeps --dev @codingwithchris/eslint-config -Y`
+`npx install-peerdeps --dev @codingwithchris/eslint-config`
 
 For Yarn (npm5+ only):
 ```
