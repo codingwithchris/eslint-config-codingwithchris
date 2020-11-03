@@ -3,6 +3,7 @@ module.exports = {
         'eslint-config-airbnb-typescript',
         './rules/base',
         './rules/import',
+        './rules/json',
         './rules/typescript',
         './rules/prettier',
     ].map(require.resolve),

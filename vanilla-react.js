@@ -3,6 +3,7 @@ module.exports = {
         'eslint-config-airbnb',
         './rules/base',
         './rules/import',
+        './rules/json',
         './rules/react',
         './rules/react-a11y',
         './rules/prettier',
