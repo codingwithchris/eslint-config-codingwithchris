@@ -1,4 +1,4 @@
 module.exports = {
     extends: ['plugin:json/recommended'],
-    plugin: ['json'],
+    plugins: ['json'],
 };
