@@ -9,7 +9,7 @@ module.exports = {
     rules: {
         'react/display-name': 1,
         'react/forbid-prop-types': 0,
-        // Make compatible with Typescript and only allow .js and .ts as opposed to `.$sx`
+        // Make compatible with Typescript
         'react/jsx-filename-extension': [
             'error',
             { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
