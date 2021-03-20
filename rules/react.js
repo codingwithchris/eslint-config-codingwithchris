@@ -1,5 +1,4 @@
 module.exports = {
-    extends: ['prettier/react'],
     plugins: ['react-hooks'],
     settings: {
         react: {
